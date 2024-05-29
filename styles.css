@@ -1,0 +1,89 @@
+body {
+  text-align: center;
+  background-color: #151515;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 4rem;
+  margin:  5%;
+  color: #A91D3A;
+  text-shadow: 
+    0 0 10px #EEEEEE,
+    0 0 20px #EEEEEE,
+    0 0 30px #EEEEEE,
+    0 0 40px #EEEEEE,
+    0 0 50px #EEEEEE,
+    0 0 60px #EEEEEE,
+    0 0 70px #EEEEEE,
+    0 0 80px #EEEEEE;
+}
+
+
+.container {
+  display: inline-block;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 65vh; /* Ensure full viewport height */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+
+.row {
+  display: flex; /* Make the children display in a row */
+}
+
+.btn {
+  margin: 2vw; /* Adjust margin for responsiveness */
+  height: 15vw; /* Adjust height based on viewport width */
+  width: 15vw; /* Adjust width based on viewport width */
+  border: 2px solid black; /* Adjust border thickness */
+  border-radius: 10px; /* Adjust border radius */
+  box-shadow: 
+    0 0 50px #EEEEEE,
+    0 0 50px #EEEEEE,
+    0 0 50px #EEEEEE;
+  font-family: 'Press Start 2P', cursive; /* Set font family */
+  font-size: 4vw; /* Set font size */
+  color: #A91D3A; /* Set text color */
+  text-align: center; /* Center text horizontally */
+  line-height: 15vw; /* Center text vertically */
+  text-shadow: 
+    0 0 10px #EEEEEE,
+    0 0 20px #EEEEEE,
+    0 0 30px #EEEEEE,
+    0 0 40px #EEEEEE,
+    0 0 50px #EEEEEE,
+    0 0 60px #EEEEEE,
+    0 0 70px #EEEEEE,
+    0 0 80px #EEEEEE;;
+}
+
+
+/* Define button colors */
+.red { background-color: red; }
+.green { background-color: green; }
+.blue { background-color: blue; }
+.yellow { background-color: yellow; }
+.purple { background-color: purple; }
+.orange { background-color: orange; }
+.brown { background-color: brown; }
+.gray { background-color: gray; }
+
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+@media screen and (max-width: 600px) {
+  .btn {
+    margin: 3vw;
+    height: 25vw;
+    width: 25vw;
+  }
+  .row {
+    display: block;
+  }
+}
