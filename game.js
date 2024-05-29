@@ -119,8 +119,8 @@ function checkUserInput() {
                 currentAudioTime = 0;
                 $('h1').text("NEXT LEVEL!");
                 count++;
-                // speed *= 0.9;
-                // pressedSpeed *= 0.9;
+                speed *= 0.9;
+                pressedSpeed *= 0.9;
                 startNextLevelCountdown(); // Start countdown for next level
             }, 1000);
         }
